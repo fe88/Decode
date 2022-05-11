@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="esp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="stylechallenge.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+</head>
+
+<body>
+    <header>
+        <img src="./imagenes/Vector.png" class="vector1">
+
+    </header>
+
+    <main>
+
+        <section>
+            <textarea type="text" class="input-text" id="input-text" cols="40" rows="10"
+                placeholder="Ingrese el texto aqui" maxlength="5000"></textarea>
+            <p class="aviso">
+                <object data="./imagenes/Vector (1).png"></object>
+                Solo letras minusculas y sin acentos
+            </p>
+            <div class="buttons">
+                <button class="button1" type="button"
+                    onclick="encriptar(document.getElementById('input-text').value,'enc')">Encriptar</button>
+                <button class="button2" type="button"
+                    onclick="encriptar(document.getElementById('input-text').value,'des')">Desencriptar</button>
+            </div>
+        </section>
+        <section class="rectangulo-blanco">
+            <img class="muneco" src="./imagenes/muneco.svg" alt="muneco" id="empty-text-image">
+            <p class="texto1" id="empty-text-text1"> Ningún mensaje fue encontrado</p>
+            <p class="texto2" id="empty-text-text2">Ingresa el texto que desees encriptar o desencriptar. </p>
+            <div id="text-container" class="text-container">
+                <textarea class="card-text" id="result-text"></textarea>
+                <button class="copybutton" type="button" name="button" onclick="copyToClipBoard()">Copiar</button>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="challenge.js"></script>
+
+</html>

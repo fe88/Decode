@@ -1,0 +1,292 @@
+* {
+    background: #F3F5FC;
+    font-family: "inter"sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+main {
+    display: flex;
+
+}
+
+.vector1{
+    position: absolute;
+    left: 2%;
+    right: 37.43%;
+    top: 1%;
+    bottom: 0%;
+    
+}
+.input-text {
+    margin-top: 90px;
+    margin-left: 80px;
+    border: none;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    color: #0A3871;
+    
+
+
+}
+
+.input-text-area {
+    position: relative
+}
+
+.aviso {
+    position: static;
+    width: 500px;
+    height: 40px;
+    left: 24px;
+    top: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+
+    color: #495057;
+
+    opacity: 0.8;
+
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 8px;
+}
+
+.buttons {
+margin-top: 10px;
+margin-left: 5%;
+float: left;
+width: 100%;
+height: auto;
+border-radius: 24px;
+}
+
+.button1 {
+    box-sizing: border-box;
+
+
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+
+    position: static;
+    width: 328px;
+    height: 67px;
+    left: 352px;
+    top: 0px;
+
+    background: #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 24px;
+    position: static;
+    width: 280px;
+    height: 19px;
+    left: 24px;
+    top: 24px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 5px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 0px 8px;
+}
+.button1:hover{
+    background-color: #FFFFFF;
+    color:  #0A3871;
+}
+.button2 {
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+
+    position:static;
+    width: 328px;
+    height: 67px;
+    left: 352px;
+    top: 0px;
+
+
+    background: transparent;
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 24px;
+    position: static;
+    width: 280px;
+    height: 19px;
+    left: 24px;
+    top: 24px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 5px;
+    text-align: center;
+
+    color: #0A3871;
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 0px 8px;
+}
+
+.button2:hover{
+    background-color: #0A3871;
+    color:#FFFFFF;
+}
+
+
+.muneco {
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    left: 35px;
+    top: 200px;
+    background-color:#FFFFFF
+    
+
+}
+.texto1{
+    height: 20px;
+    margin-top: 530px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    background-color: #FFFFFF;
+    text-align: center;
+    color: #343A40;
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.texto2{
+    margin: 20px 1px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    background-color: #FFFFFF;
+    text-align: center;
+     color: #495057;
+    
+    
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+
+
+
+
+}
+
+.text-container {
+    display: none; 
+    
+}
+
+.rectangulo-blanco {
+    position: absolute;
+    width: 400px;
+    height: 800px;
+    left: 1400px;
+    top: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+
+}
+
+
+
+.card-text {
+    resize: none;
+    outline: none;
+    position: absolute;
+    border: none;
+    margin: 1px 12px;
+    width: 370px;
+    height: 600px;
+    background:#FFFFFF;
+    border-radius: 32px;
+    color:#495057
+}
+     
+.copybutton{
+
+    box-sizing: border-box;
+    
+    display: block;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 1px;
+    
+    position: absolute;
+    width: 328px;
+    height: 20px;
+    left: 45px;
+    top: 609px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    width: 288px;
+    height: 19px;
+
+   
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 5px;
+    text-align: center;
+    
+
+    color: #0A3871;
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 0px 8px;
+}
+
+.copybutton:hover{
+background-color: #0A3871;
+color:#FFFFFF;
+
+
+
+}
